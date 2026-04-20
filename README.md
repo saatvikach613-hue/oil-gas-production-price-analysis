@@ -1,26 +1,22 @@
-Open your README.md file on GitHub, click the pencil icon to edit, select all and delete, then paste this:
-
----
-
-# U.S. Oil & Gas Production Shocks and Retail Energy Prices
+# 🛢️ U.S. Oil & Gas Production Shocks and Retail Energy Prices
 
 OLS panel regression analysis examining whether production shocks in U.S. oil and gas significantly affect retail gasoline, diesel, and natural gas prices — and how refinery infrastructure moderates this relationship.
 
 ---
 
-## Research Question
+## 🔎 Research Question
 
 Do unexpected changes in U.S. oil and gas production pass through to retail energy prices? Does refinery infrastructure — capacity and utilization — amplify or dampen that effect?
 
 ---
 
-## Project Overview
+## 📁 Project Overview
 
 Monthly state-level U.S. energy market data from 2015 to 2025, covering COVID-19 supply chain shocks, geopolitical disruptions, and rapid domestic production growth. OLS regression with HC1 robust standard errors estimated separately for gasoline, diesel, and natural gas.
 
 ---
 
-## Dataset
+## 📊 Dataset
 
 | Source | Description | Period |
 |--------|-------------|--------|
@@ -33,7 +29,7 @@ Panel size: 6,000+ state-month observations
 
 ---
 
-## Methodology
+## 🧑🏻‍💻 Methodology
 
 ### Production Shock Construction
 
@@ -55,7 +51,7 @@ Gasoline & Diesel use Shock × Refinery Capacity. Natural Gas uses Shock × Refi
 
 ---
 
-## Key Results
+## 🟩 Key Results
 
 | Model | R² |
 |-------|----|
@@ -83,7 +79,7 @@ Gasoline & Diesel use Shock × Refinery Capacity. Natural Gas uses Shock × Refi
 
 ---
 
-## Tech Stack
+## 🖥️ Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -96,7 +92,7 @@ Gasoline & Diesel use Shock × Refinery Capacity. Natural Gas uses Shock × Refi
 
 ---
 
-## How to Run
+## 🏃🏻‍♀️ How to Run
 
 Install dependencies:
 
@@ -108,7 +104,7 @@ python oil_gas_analysis.py
 
 ---
 
-## Academic Context
+## 🏫 Academic Context
 
 Final project for BUAN 6312 — Applied Econometrics and Time Series Analysis at The University of Texas at Dallas — MS Business Analytics & AI program.
 
@@ -116,7 +112,7 @@ Group 3: Aishwarya Balmoori, Chokkapu Saatvika, Matta Himakanthi, Karanam Kiran 
 
 ---
 
-## Author
+## 👩🏻 Author
 
 Saatvika Chokkapu
 MS Business Analytics & AI — UT Dallas (May 2026)
